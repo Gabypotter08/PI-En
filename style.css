@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #121212;
+    color: #f0f0f0;
+  }
+  
+  h1 {
+    color: #f39c12;
+  }
+  
+  input {
+    font-size: 1.2em;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #222;
+    color: #f0f0f0;
+    border: 1px solid #555;
+  }
+  
+  button {
+    font-size: 1em;
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #f39c12;
+    color: #121212;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #d35400;
+  }
+  
+  #message {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  #affichage {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #1abc9c;
+  }
+  

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Décimales de Pi - Challenge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Défi : Récite les décimales de Pi</h1>
+
+  <div id="affichage">3.</div>
+
+  <input type="text" id="inputPi" placeholder="Tape ici..." autofocus>
+  <button onclick="verifier()">Valider</button>
+
+  <p id="message"></p>
+
+  <p>Score : <span id="score">0</span></p>
+  <p>Meilleur Score : <span id="bestScore">0</span></p>
+  <button onclick="resetBestScore()">Reset Meilleur Score</button>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
