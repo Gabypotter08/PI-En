@@ -10,8 +10,8 @@ function verifier() {
 
   for (let i = 0; i < saisie.length; i++) {
     if (saisie[i] !== pi[i + 2]) { // Vérifie chaque décimale
-      message = `Erreur à la position ${i + 1} : `;
-      message += `tu as tapé "${saisie[i]}", mais c'était "${pi[i + 2]}"`;
+      message = `Error at the position ${i + 1} : `;
+      message += `you spell "${saisie[i]}", but it was "${pi[i + 2]}"`;
 
       // Reset du score
       score = 0;
@@ -31,7 +31,7 @@ function verifier() {
     document.getElementById("bestScore").innerText = bestScore;
   }
 
-  document.getElementById("message").innerText = "Bien joué ! Continue...";
+  document.getElementById("message").innerText = "Well played! Continue...";
   document.getElementById("affichage").innerText = "3." + saisie;
   document.getElementById("inputPi").value = "";
 }
@@ -40,6 +40,6 @@ function resetBestScore() {
     localStorage.removeItem("bestScore");
     bestScore = 0;
     document.getElementById("bestScore").innerText = bestScore;
-    alert("Meilleur score réinitialisé !");
+    alert("Best score Reset!");
   }
   
